@@ -1,0 +1,12 @@
+{
+  "name": "rewind",
+  "description": "Rewind.ai-inspired pipe for screenpipe — searchable timeline of everything you've seen and done, automatic time tracking by app and project, and AI chat over your screen history.",
+  "version": "1.0.0",
+  "author": "64johnlee",
+  "crons": [
+    {
+      "path": "/api/cron/snapshot",
+      "schedule": "*/30 * * * *"
+    }
+  ]
+}
